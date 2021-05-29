@@ -2,29 +2,77 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bed68096-ccd0-437a-bbcd-7cafbe938901" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/places/components/PlaceItem.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/places/components/PlaceItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/places/components/PlaceList.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/places/components/PlaceList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/places/pages/NewPlaces.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/places/pages/UserPlaces.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/shared/components/FormElements/Button.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/shared/components/FormElements/Button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/shared/components/Navigation/MainHeader.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/shared/components/Navigation/MainHeader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/shared/components/Navigation/MainNavigation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/shared/components/Navigation/MainNavigation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/shared/components/Navigation/NavLinks.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/shared/components/Navigation/NavLinks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/shared/components/Navigation/SideDrawer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/shared/components/Navigation/SideDrawer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/shared/components/UIElements/Avatar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/shared/components/UIElements/Avatar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/shared/components/UIElements/BackDrop.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/shared/components/UIElements/BackDrop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/shared/components/UIElements/Card.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/shared/components/UIElements/Card.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/shared/components/UIElements/Input.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/shared/components/UIElements/Input.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/shared/components/UIElements/Map.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/shared/components/UIElements/Map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/shared/components/UIElements/Modal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/shared/components/UIElements/Modal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/users/components/UserItem.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/users/components/UserItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/users/components/UsersList.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/users/components/UsersList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/users/pages/Users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1spfB34NhNJOdVpxtMPPJtRnD38" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -33,11 +81,19 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend/src/users" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\RASA\projects\fstack-udemy\application\fullstack-react-node\frontend\src\users" />
+      <recent name="C:\Users\RASA\projects\fstack-udemy\application\fullstack-react-node\frontend\src\shared" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -47,7 +103,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1621574316745</updated>
-      <workItem from="1621574319542" duration="1013000" />
+      <workItem from="1621574319542" duration="11000000" />
+      <workItem from="1621742656448" duration="8274000" />
+      <workItem from="1621762002218" duration="6272000" />
+      <workItem from="1621781203606" duration="5736000" />
+      <workItem from="1621926287768" duration="285000" />
+      <workItem from="1621956738164" duration="5851000" />
+      <workItem from="1622020139356" duration="92000" />
     </task>
     <servers />
   </component>
