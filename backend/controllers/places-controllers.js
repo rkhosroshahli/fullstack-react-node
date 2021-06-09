@@ -153,7 +153,7 @@ const updatePlace = async (req, res, next) => {
     );
   }
 
-  res.status(200).json({ place: place.toObject({ getter: true }) });
+  res.status(200).json({ place: place.toObject({ getters: true }) });
 };
 
 const deletePlace = async (req, res, next) => {
